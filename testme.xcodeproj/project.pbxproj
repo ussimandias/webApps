@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		1DBC9222172756A700057885 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC9221172756A700057885 /* main.cpp */; };
 		1DBC9224172756A700057885 /* testme.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1DBC9223172756A700057885 /* testme.1 */; };
+		1DD30B961800F8F100CB3F89 /* apples.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD30B7C1800F8F100CB3F89 /* apples.jar */; };
+		1DD30B971800F8F100CB3F89 /* org-netbeans-modules-java-j2seproject-copylibstask.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD30B801800F8F100CB3F89 /* org-netbeans-modules-java-j2seproject-copylibstask.jar */; };
+		1DD30B981800F8F100CB3F89 /* A.java in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30B8D1800F8F100CB3F89 /* A.java */; };
+		1DD30B991800F8F100CB3F89 /* Apples.java in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30B8E1800F8F100CB3F89 /* Apples.java */; };
+		1DD30B9A1800F8F100CB3F89 /* B.java in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30B8F1800F8F100CB3F89 /* B.java */; };
+		1DD30B9B1800F8F100CB3F89 /* GenericMethodTest.java in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30B901800F8F100CB3F89 /* GenericMethodTest.java */; };
+		1DD30B9C1800F8F100CB3F89 /* practice.java in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30B911800F8F100CB3F89 /* practice.java */; };
+		1DD30B9D1800F8F100CB3F89 /* sample.java in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30B921800F8F100CB3F89 /* sample.java */; };
+		1DD30B9E1800F8F100CB3F89 /* tuna.java in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30B931800F8F100CB3F89 /* tuna.java */; };
+		1DD30B9F1800F8F100CB3F89 /* x.java in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30B941800F8F100CB3F89 /* x.java */; };
+		1DD30BA01800F8F100CB3F89 /* y.java in Sources */ = {isa = PBXBuildFile; fileRef = 1DD30B951800F8F100CB3F89 /* y.java */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +39,37 @@
 		1DBC921E172756A700057885 /* testme */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testme; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DBC9221172756A700057885 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1DBC9223172756A700057885 /* testme.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = testme.1; sourceTree = "<group>"; };
+		1DD30B6B1800F8F100CB3F89 /* built-jar.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "built-jar.properties"; sourceTree = "<group>"; };
+		1DD30B6E1800F8F100CB3F89 /* A.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = A.class; sourceTree = "<group>"; };
+		1DD30B6F1800F8F100CB3F89 /* Apples.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Apples.class; sourceTree = "<group>"; };
+		1DD30B701800F8F100CB3F89 /* B.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = B.class; sourceTree = "<group>"; };
+		1DD30B711800F8F100CB3F89 /* GenericMethodTest.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = GenericMethodTest.class; sourceTree = "<group>"; };
+		1DD30B721800F8F100CB3F89 /* practice.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = practice.class; sourceTree = "<group>"; };
+		1DD30B731800F8F100CB3F89 /* Sample.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Sample.class; sourceTree = "<group>"; };
+		1DD30B741800F8F100CB3F89 /* tuna.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = tuna.class; sourceTree = "<group>"; };
+		1DD30B751800F8F100CB3F89 /* x.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = x.class; sourceTree = "<group>"; };
+		1DD30B761800F8F100CB3F89 /* y.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = y.class; sourceTree = "<group>"; };
+		1DD30B7A1800F8F100CB3F89 /* build.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = build.xml; sourceTree = "<group>"; };
+		1DD30B7C1800F8F100CB3F89 /* apples.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = apples.jar; sourceTree = "<group>"; };
+		1DD30B7D1800F8F100CB3F89 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
+		1DD30B801800F8F100CB3F89 /* org-netbeans-modules-java-j2seproject-copylibstask.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "org-netbeans-modules-java-j2seproject-copylibstask.jar"; sourceTree = "<group>"; };
+		1DD30B811800F8F100CB3F89 /* nblibraries.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nblibraries.properties; sourceTree = "<group>"; };
+		1DD30B821800F8F100CB3F89 /* manifest.mf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = manifest.mf; sourceTree = "<group>"; };
+		1DD30B841800F8F100CB3F89 /* build-impl.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "build-impl.xml"; sourceTree = "<group>"; };
+		1DD30B851800F8F100CB3F89 /* genfiles.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = genfiles.properties; sourceTree = "<group>"; };
+		1DD30B871800F8F100CB3F89 /* private.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private.properties; sourceTree = "<group>"; };
+		1DD30B881800F8F100CB3F89 /* private.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = private.xml; sourceTree = "<group>"; };
+		1DD30B891800F8F100CB3F89 /* project.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = project.properties; sourceTree = "<group>"; };
+		1DD30B8A1800F8F100CB3F89 /* project.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = project.xml; sourceTree = "<group>"; };
+		1DD30B8D1800F8F100CB3F89 /* A.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = A.java; sourceTree = "<group>"; };
+		1DD30B8E1800F8F100CB3F89 /* Apples.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Apples.java; sourceTree = "<group>"; };
+		1DD30B8F1800F8F100CB3F89 /* B.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = B.java; sourceTree = "<group>"; };
+		1DD30B901800F8F100CB3F89 /* GenericMethodTest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = GenericMethodTest.java; sourceTree = "<group>"; };
+		1DD30B911800F8F100CB3F89 /* practice.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = practice.java; sourceTree = "<group>"; };
+		1DD30B921800F8F100CB3F89 /* sample.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = sample.java; sourceTree = "<group>"; };
+		1DD30B931800F8F100CB3F89 /* tuna.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = tuna.java; sourceTree = "<group>"; };
+		1DD30B941800F8F100CB3F89 /* x.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = x.java; sourceTree = "<group>"; };
+		1DD30B951800F8F100CB3F89 /* y.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = y.java; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD30B961800F8F100CB3F89 /* apples.jar in Frameworks */,
+				1DD30B971800F8F100CB3F89 /* org-netbeans-modules-java-j2seproject-copylibstask.jar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +106,151 @@
 			children = (
 				1DBC9221172756A700057885 /* main.cpp */,
 				1DBC9223172756A700057885 /* testme.1 */,
+				1DD30B691800F8F100CB3F89 /* apples */,
 			);
 			path = testme;
+			sourceTree = "<group>";
+		};
+		1DD30B691800F8F100CB3F89 /* apples */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30B6A1800F8F100CB3F89 /* build */,
+				1DD30B7A1800F8F100CB3F89 /* build.xml */,
+				1DD30B7B1800F8F100CB3F89 /* dist */,
+				1DD30B7E1800F8F100CB3F89 /* lib */,
+				1DD30B821800F8F100CB3F89 /* manifest.mf */,
+				1DD30B831800F8F100CB3F89 /* nbproject */,
+				1DD30B8B1800F8F100CB3F89 /* src */,
+			);
+			path = apples;
+			sourceTree = "<group>";
+		};
+		1DD30B6A1800F8F100CB3F89 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30B6B1800F8F100CB3F89 /* built-jar.properties */,
+				1DD30B6C1800F8F100CB3F89 /* classes */,
+				1DD30B771800F8F100CB3F89 /* empty */,
+				1DD30B781800F8F100CB3F89 /* generated-sources */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		1DD30B6C1800F8F100CB3F89 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30B6D1800F8F100CB3F89 /* apples */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		1DD30B6D1800F8F100CB3F89 /* apples */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30B6E1800F8F100CB3F89 /* A.class */,
+				1DD30B6F1800F8F100CB3F89 /* Apples.class */,
+				1DD30B701800F8F100CB3F89 /* B.class */,
+				1DD30B711800F8F100CB3F89 /* GenericMethodTest.class */,
+				1DD30B721800F8F100CB3F89 /* practice.class */,
+				1DD30B731800F8F100CB3F89 /* Sample.class */,
+				1DD30B741800F8F100CB3F89 /* tuna.class */,
+				1DD30B751800F8F100CB3F89 /* x.class */,
+				1DD30B761800F8F100CB3F89 /* y.class */,
+			);
+			path = apples;
+			sourceTree = "<group>";
+		};
+		1DD30B771800F8F100CB3F89 /* empty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = empty;
+			sourceTree = "<group>";
+		};
+		1DD30B781800F8F100CB3F89 /* generated-sources */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30B791800F8F100CB3F89 /* ap-source-output */,
+			);
+			path = "generated-sources";
+			sourceTree = "<group>";
+		};
+		1DD30B791800F8F100CB3F89 /* ap-source-output */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ap-source-output";
+			sourceTree = "<group>";
+		};
+		1DD30B7B1800F8F100CB3F89 /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30B7C1800F8F100CB3F89 /* apples.jar */,
+				1DD30B7D1800F8F100CB3F89 /* README.TXT */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+		1DD30B7E1800F8F100CB3F89 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30B7F1800F8F100CB3F89 /* CopyLibs */,
+				1DD30B811800F8F100CB3F89 /* nblibraries.properties */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1DD30B7F1800F8F100CB3F89 /* CopyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30B801800F8F100CB3F89 /* org-netbeans-modules-java-j2seproject-copylibstask.jar */,
+			);
+			path = CopyLibs;
+			sourceTree = "<group>";
+		};
+		1DD30B831800F8F100CB3F89 /* nbproject */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30B841800F8F100CB3F89 /* build-impl.xml */,
+				1DD30B851800F8F100CB3F89 /* genfiles.properties */,
+				1DD30B861800F8F100CB3F89 /* private */,
+				1DD30B891800F8F100CB3F89 /* project.properties */,
+				1DD30B8A1800F8F100CB3F89 /* project.xml */,
+			);
+			path = nbproject;
+			sourceTree = "<group>";
+		};
+		1DD30B861800F8F100CB3F89 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30B871800F8F100CB3F89 /* private.properties */,
+				1DD30B881800F8F100CB3F89 /* private.xml */,
+			);
+			path = private;
+			sourceTree = "<group>";
+		};
+		1DD30B8B1800F8F100CB3F89 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30B8C1800F8F100CB3F89 /* apples */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		1DD30B8C1800F8F100CB3F89 /* apples */ = {
+			isa = PBXGroup;
+			children = (
+				1DD30B8D1800F8F100CB3F89 /* A.java */,
+				1DD30B8E1800F8F100CB3F89 /* Apples.java */,
+				1DD30B8F1800F8F100CB3F89 /* B.java */,
+				1DD30B901800F8F100CB3F89 /* GenericMethodTest.java */,
+				1DD30B911800F8F100CB3F89 /* practice.java */,
+				1DD30B921800F8F100CB3F89 /* sample.java */,
+				1DD30B931800F8F100CB3F89 /* tuna.java */,
+				1DD30B941800F8F100CB3F89 /* x.java */,
+				1DD30B951800F8F100CB3F89 /* y.java */,
+			);
+			path = apples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +305,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DBC9222172756A700057885 /* main.cpp in Sources */,
+				1DD30B981800F8F100CB3F89 /* A.java in Sources */,
+				1DD30B991800F8F100CB3F89 /* Apples.java in Sources */,
+				1DD30B9A1800F8F100CB3F89 /* B.java in Sources */,
+				1DD30B9B1800F8F100CB3F89 /* GenericMethodTest.java in Sources */,
+				1DD30B9C1800F8F100CB3F89 /* practice.java in Sources */,
+				1DD30B9D1800F8F100CB3F89 /* sample.java in Sources */,
+				1DD30B9E1800F8F100CB3F89 /* tuna.java in Sources */,
+				1DD30B9F1800F8F100CB3F89 /* x.java in Sources */,
+				1DD30BA01800F8F100CB3F89 /* y.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
