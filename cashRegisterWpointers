@@ -1,0 +1,147 @@
+ /*modify calculate items in a supermarket with pointers */
+ 
+#include <stdio.h>
+
+void get_department (int *); 
+void get_quantity (int *); 
+void get_unit_price (float *);
+void  calculate_nontaxable (float *, int  *, double * );
+double get_tax (double, double); 
+double get_bottle_deposit (double, int, double ); 
+void print_accum_amounts (double, double );
+void Print_total (double); 
+
+
+int main (void)
+
+{
+
+
+	float tax_rate = 0.0825;
+	double bottle_deposit = 0.050; 
+	deposit_amount = 0.0 ;
+	double tax = 0;  
+	total = 0;	
+	subtotal = 0; 
+	n = 0;
+	total_tax = 0;
+	accum_subtotal = 0;
+	accum_tax = 0; 
+	
+	int department, quantity, user_response=0;
+	float unit_price = 0; 
+
+	printf("hi, welcome to cs 101 supermarket!\n\n");
+
+	do {
+	
+		get_department (&department);
+		get_quantity (&quantity);
+		get_unit_price (&unit_price); 
+		
+
+
+		if (department == 1 || department == 2 ) 
+		{	
+	
+		calculate_nontaxable ( &unit_price , &quantity, &subtotal ) ; 
+
+		}
+
+		if (department == 3 )
+		{
+			deposit_amount = get_bottle_deposit ( unit_price, quantity, bottle_deposit   ) ;
+			subtotal = (quantity * unit_price) + deposit_amount;
+			tax = get_tax (tax_rate, subtotal);  
+		}
+
+		if (department == 4 )
+		{
+			subtotal = (unit_price * quantity); 
+			tax = get_tax ( tax_rate, subtotal  );  
+		
+		}
+		accum_subtotal = accum_subtotal + subtotal; 
+		total = accum_subtotal + accum_tax ; 
+		accum_tax = tax + accum_tax ; 
+		print_accum_amounts (accum_tax , accum_subtotal);
+
+		printf("please enter 1 to calculate or 2 to continue: \n");
+		scanf("%d",  &user_response); 
+		
+	}
+
+while (user_response == 2 );
+
+	Print_total (total); 
+	
+	return 0 ;
+
+}
+
+void get_department (int *department)
+{
+	
+	printf("please enter department: \n");
+	scanf("%d",  department);
+ 
+}
+
+
+void get_quantity (int *quantity)
+{
+	
+	printf("please enter quantity: \n"); 
+	scanf("%d",  quantity);
+	
+}
+
+
+void get_unit_price (float *unit_price)
+{
+	
+	fflush(stdin);
+	printf("please enter unit_price: \n");
+	scanf("%f",  unit_price); 
+	
+
+}
+
+void  calculate_nontaxable (float   *unit_price, int  *quantity, double *subtotal )
+{
+	
+	*subtotal = ( (*unit_price)   *    (*quantity) )  ; 
+ 
+}
+
+double get_tax  (double subtotal  ,  double tax_rate  )
+{  
+	double tax; 
+	tax = subtotal * tax_rate; 
+	return tax; 
+}
+	
+double get_bottle_deposit (double unit_price , int quantity , double bottle_deposit ) 
+{  
+	double bottle_deposit_amount; 
+	bottle_deposit_amount = quantity * bottle_deposit;
+	return bottle_deposit_amount; 
+}
+
+
+void print_accum_amounts (double accum_tax ,  double accum_subtotal)
+{
+	printf("Subtotal: %2.2lf\n", accum_subtotal);
+	printf("Tax: %2.2f\n", accum_tax);
+}
+
+void Print_total (double total)
+{
+	printf("Total: %2.2lf\n",total );
+	printf("bye, Have A Nice Day ! \n");
+	printf("press any key to exit ! \n");
+	
+	fflush(stdin);
+	getchar();
+
+}
