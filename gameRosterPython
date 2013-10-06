@@ -1,0 +1,36 @@
+# dict of {str : list of str}
+clubs_inEurope = {'99' : ['Manchester United'],
+'100' : ['Barcelona'],
+'98' : ['Real Madrid', 'PSG'],
+'89' : ['Everton', 'Lazio']}
+7
+
+# dict of {str: list of str}
+players_roster = {'Manchester United' : ['W Ronney'], 
+'Barcelona' : ['L Messi', 'J Pique'],
+'AC Milan' : ['M Balotelli'],
+'B Munichen' : []} 
+
+#dict of {str: list of str}
+players_Position = {'W Rooney': ['Striker', 'Attacking Midfielder'],
+'G Cahill':['Centre Half'] ,
+'C Ronaldo': ['Winger', 'Striker'],
+'L Messi': ['Attacking Midfielder']}
+
+# dict of {str: list of str}
+players_Rank = {'*' : [], 
+'**' : ['F Torres', 'G Jonathan'],
+'***' : ['Neymar'],
+'****' : ['M Balotteli', 'C Ronaldo'],
+'*****' : ['Z Zidane', 'L Messi']}
+
+def team_of_player(name):
+    for club, players in players_roster.iteritems():
+        if name in players:
+            return club
+    return None
+		
+def players_for_pos(desired_position):
+    for player, actual_positions in players_Position.iteritems():
+        if desired_position in actual_positions:
+            yield player
